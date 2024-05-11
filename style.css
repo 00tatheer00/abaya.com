@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+
+
+.container-fluid{
+    background-color: #7e393eef;
+    position: fixed;
+    top: 0;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+#abaya-img {
+    /* margin-right: 350px; */
+    width: 60px;
+}
+.za-bacha-yam{
+    display: block;
+    margin-right: 320px;
+}
+#span-text {
+    display: inline-block;
+    color: white !important;
+    /* margin-right: 200px; */
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn{
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+.btn:hover{
+    color: #7e393eef !important;
+    background-color: white !important;
+}
+
+.btn:focus{
+    color: white !important;
+    background-color: #7e393eef !important;
+}
+/* Main Body Styling */
+
+.main-container {
+    width: 100%;
+    height: 86vh;
+    background-image: url(/Web_slider_desktop_abayaa_3_1512x.webp);
+    background-size: cover;
+    background-position: center;
+    margin-top: 47px;
+}
+
+#black-img {
+    width: 100%;
+    height: 86vh;
+    margin-left: -1px;
+    opacity: 0.6;
+}

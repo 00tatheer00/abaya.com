@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+    /* background: #fed5c8; */
+}   
 /* Header styling */
 
 
@@ -31,7 +35,8 @@
 
 
 .logo-container>img {
-    width: 120px;
+    margin-top: -12px;
+    width: 90px;
 }
 
 .search-bar-container {
@@ -88,14 +93,21 @@ nav>ul>li {
 
 .three-img-conatiner>img {
     width: 350px;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 20px;
+}
+
+.three-img-conatiner>img:hover {
+    transform: scale(0.9);
 }
 
 .three-img-conatiner {
-    border: 1px solid;
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 30px;
     margin: 30px 100px;
+
+    object-fit: fill;
 }
 
 .banner {
@@ -126,27 +138,50 @@ nav>ul>li {
     right: 0;
     top: 13px;
 }
-.gallery{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 30px;
-    margin: 30px 100px;
-}
 
-.gallery > img{
-    width: auto;
-    height: 300px;
-}
 
-.umrah-section > img{
+
+.umrah-section>img {
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     width: auto;
     height: 500px;
     padding-left: 40px;
 }
 
-video{
+video {
     width: 100%;
     height: auto;
+}
+
+
+
+.kids{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 30px;   
+    object-fit: cover;
+    margin: 30px;
+}
+
+.kids>img{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.umrah-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 30px;   
+    object-fit: cover;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.umrah-gallery>img{
+    width: auto;
+    height: 400px;
+    border-radius: 20px;
 }

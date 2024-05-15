@@ -20,6 +20,7 @@ body {
     /* border: 1px solid black; */
     height: 65px;
     /* width: 100vw; */
+    cursor: pointer;
 
 }
 
@@ -39,6 +40,7 @@ body {
 .logo-container>img {
     margin-top: -12px;
     width: 90px;
+    cursor: pointer;
 }
 
 .search-bar-container {
@@ -77,16 +79,42 @@ input[type="search"]:focus {
     height: 30px;
 }
 
-nav>ul>li {
+nav>ul>a {
     list-style: none;
     display: inline-block;
     padding: 12px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
+
+a li:hover{
+    color:#ffffff6c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nav-container {
     height: 50px;
     color: white;
-    background-color:#8A3E46;
+    background-color: #8A3E46;
     position: sticky;
     top: 0;
     z-index: 1111;
@@ -120,7 +148,7 @@ nav>ul>li {
     text-align: center;
     font-weight: bold;
     position: relative;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .banner::before {
@@ -202,25 +230,25 @@ video {
 
 
 
-.main-chat-container{
+.main-chat-container {
     padding: 100px;
 }
 
-.chat{
+.chat {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#chat-input{
+#chat-input {
     display: flex;
     justify-content: center;
     align-items: center;
     /* gap: 10px; */
 }
 
-#chat-input>input[type="email"]{
+#chat-input>input[type="email"] {
     margin-right: -1px;
     outline: 1px solid #8A3E46;
     color: #8a3e4693;
@@ -229,18 +257,18 @@ video {
     border-radius: 5px;
 }
 
-#chat-input>input[type="email"]:focus{
+#chat-input>input[type="email"]:focus {
     outline: 1px solid #8A3E46;
     color: #8A3E46;
     border-radius: 5px;
 }
 
-#chat-input>input[type="email"]:hover{
+#chat-input>input[type="email"]:hover {
     outline: 1px solid #8A3E46;
     color: #8A3E46;
 }
 
-#chat-input>input[type="submit"]{
+#chat-input>input[type="submit"] {
     border: none;
     background-color: #8A3E46;
     color: white;
@@ -248,10 +276,10 @@ video {
     margin-left: -3px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    font-size: 10px ;
+    font-size: 10px;
 }
 
-#chat-input>input[type="submit"]:hover{
+#chat-input>input[type="submit"]:hover {
     background-color: #683439;
 }
 
@@ -497,3 +525,18 @@ h6 {
 }
 
 /*************footer End*****************/
+
+
+/* hijabs */
+
+.hijab-img{
+    width: auto !important;
+    height: 300px !important;
+    margin-left: 10px;
+}
+
+.hijab-img1{
+    width: 250px !important;
+    height: 300px !important;
+    margin-left: 20px;
+}

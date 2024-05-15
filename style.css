@@ -120,7 +120,7 @@ nav>ul>li {
     text-align: center;
     font-weight: bold;
     position: relative;
-    margin-top: -10px;
+    margin-top: 50px;
 }
 
 .banner::before {
@@ -167,6 +167,7 @@ video {
     column-gap: 30px;
     object-fit: cover;
     margin: 30px;
+    margin-top: 50px;
     transition: transform 0.5s ease-in-out;
 }
 
@@ -201,10 +202,58 @@ video {
 
 
 
+.main-chat-container{
+    padding: 100px;
+}
 
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#chat-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
 
+#chat-input>input[type="email"]{
+    margin-right: -1px;
+    outline: 1px solid #8A3E46;
+    color: #8a3e4693;
+    border: none;
+    padding-top: 1px;
+    border-radius: 5px;
+}
 
+#chat-input>input[type="email"]:focus{
+    outline: 1px solid #8A3E46;
+    color: #8A3E46;
+    border-radius: 5px;
+}
+
+#chat-input>input[type="email"]:hover{
+    outline: 1px solid #8A3E46;
+    color: #8A3E46;
+}
+
+#chat-input>input[type="submit"]{
+    border: none;
+    background-color: #8A3E46;
+    color: white;
+    padding: 6px;
+    margin-left: -3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 10px ;
+}
+
+#chat-input>input[type="submit"]:hover{
+    background-color: #683439;
+}
 
 
 
@@ -223,6 +272,8 @@ video {
     padding-top: 5px;
     padding-bottom: 50px;
 }
+
+
 
 .footer_bottom {
     font-size: 14px;

@@ -79,6 +79,10 @@ input[type="search"]:focus {
     height: 30px;
 }
 
+.btn-primary:hover{
+    background: none;
+}
+
 nav>ul>a {
     list-style: none;
     display: inline-block;
@@ -138,8 +142,7 @@ a li:hover{
     grid-template-columns: auto auto auto;
     column-gap: 30px;
     margin: 30px 100px;
-
-    object-fit: fill;
+    /* object-fit: fill; */
 }
 
 .banner {
@@ -191,13 +194,32 @@ video {
 
 .kids {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto  ;
     column-gap: 30px;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin: 30px;
     margin-top: 50px;
-    transition: transform 0.5s ease-in-out;
+    /* transition: transform 0.5s ease-in-out; */
 }
+
+.card-text{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    /* line-height: 1px; */
+    text-align: center;
+}
+.card{
+    border: none;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card a:hover{
+    text-decoration:underline;
+}
+
 
 .kids>img {
     width: auto;
